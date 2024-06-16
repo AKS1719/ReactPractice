@@ -13,6 +13,7 @@ function App() {
   }
   const removeValue = ()=>{
     console.log("value added",counter)
+    if(counter===0)return
     setcounter(counter-1)
   }
 

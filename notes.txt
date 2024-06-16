@@ -69,3 +69,19 @@ example of hooks
       ex and syntax 
         const  [variable, function]  = useState(default value)
         const [counter, setcounter] = useState(5)
+
+
+
+// virtual Dom , fibre and reconcillation
+
+we trace the dom and change only the values that has been changed but the real dom rewrites the whole dom 
+
+
+https://github.com/acdlite/react-fiber-architecture
+
+
+// tailwind and props
+
+
+props 
+
