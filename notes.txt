@@ -48,3 +48,24 @@ return statement can only send one element that's why we use <></>
 {}
 
 {username} is evaluation expression only final evaluation can be printed 
+
+
+
+//// Hooks
+
+why we need hooks ?
+
+react always react wherever the variable is changed and focuses on the UI updation based on the variables change everywhere in the UI
+
+if suppose i have a value and i have to update in many places in the UI if i use the basic of js then i need to use document of each places
+in the document which is very clumsy and hard to handle 
+
+react gives a functionality of hooks which are used to change all the Ui points where the value of that variable is used whithout being clumsy
+
+
+example of hooks 
+  -> useState --> responsible for propagating the values to the user interface 
+
+      ex and syntax 
+        const  [variable, function]  = useState(default value)
+        const [counter, setcounter] = useState(5)
