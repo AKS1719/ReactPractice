@@ -85,3 +85,10 @@ https://github.com/acdlite/react-fiber-architecture
 
 props 
 
+
+
+Starting of learning through projects
+
+
+1)  bg changer
+    -> onclick uses always refrence so we can't pass parameters so we can use callback function
