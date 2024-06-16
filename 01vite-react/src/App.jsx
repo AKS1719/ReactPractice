@@ -1,9 +1,9 @@
-
+import Aks from "./aks"
 
 function App() {
   return (
     <>
-      Hello World
+      <Aks/>
     </>
   )
 }

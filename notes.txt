@@ -1,2 +1,50 @@
 Project Structure:-
     manifest.json --> used for when opened in mobile phone
+
+
+
+React creates it own virtual dom
+which is ReactDom --> which has a function createRoot
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+it provide the functionality of creating our own tags ex <App/>
+
+without React.StrictMode we can render our app 
+
+we never included the script file in the index.html then how the index.js file can take the document.getElementById property ?
+
+--> react-scripts in the package.json this adds automatically <script defer="" src="/static/js/bundle.js"></script>
+
+
+but Vite don't use the react-scripts then how it connects the js 
+--> it directly loaded in the index.html
+
+vite is light weight as it does not load many js libraries
+
+
+.. Since vite is a strict in it's syntax we can't we want to create a component we must give the extension as .jsx otherwise it can't be rendered and must use the uppercase for the first name
+
+
+return statement can only send one element that's why we use <></>
+
+
+.. the normal react without vite making a component always use capitalize function names other wise in normal also we cant use small letters
+
+.. best practice for keeping file name is in capitalize format
+
+
+
+
+// creating own react
+ -> react tries to make a tree of the tags
+
+// injecting variables in jsx
+{}
+
+{username} is evaluation expression only final evaluation can be printed 
