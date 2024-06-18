@@ -13,7 +13,7 @@ function App() {
         <div className="fixed flex flex-wrap justify-center bottom-48 inset-x-0 px-2">
           <div className="flex flex-wrap justify-center gap-3 shadow-xl bg-white rounded-xl px-3 py-2">
             <button
-             className="outline-none px-4 rounded-full text-white shadow-xl"
+             className="outline-none px-4 rounded-full text-white decoration-wavy shadow-xl"
              style={{backgroundColor:"red"}}
              onClick={()=>setColor("red")}
              >Red</button>

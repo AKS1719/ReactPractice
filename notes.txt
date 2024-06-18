@@ -92,3 +92,7 @@ Starting of learning through projects
 
 1)  bg changer
     -> onclick uses always refrence so we can't pass parameters so we can use callback function
+
+2) password generator 
+    -> useCallback hook is used to rerender it takes two arguments one is function and second one is dependency array
+    -> useEffect hook it uses callBack (()=>{},[dependency on which the effect will occur])
