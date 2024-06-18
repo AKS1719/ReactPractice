@@ -96,3 +96,8 @@ Starting of learning through projects
 2) password generator 
     -> useCallback hook is used to rerender it takes two arguments one is function and second one is dependency array
     -> useEffect hook it uses callBack (()=>{},[dependency on which the effect will occur])
+
+3) Currency converter 
+    -> custom hooks
+    -> re usable components 
+    -> useId
