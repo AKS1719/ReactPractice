@@ -69,6 +69,10 @@ example of hooks
       ex and syntax 
         const  [variable, function]  = useState(default value)
         const [counter, setcounter] = useState(5)
+  -> useEffect
+  -> useParams
+  -> useLoaderData
+  ->useCallback
 
 
 
@@ -101,3 +105,5 @@ Starting of learning through projects
     -> custom hooks
     -> re usable components 
     -> useId
+4) ReactRouter - website
+    using loader functionality in react  router dom in a link when the mouse cursor is being navigated on the top of that button before clicking the button loader starts fetching the data and stores it in the cache
