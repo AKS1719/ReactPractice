@@ -110,3 +110,8 @@ Starting of learning through projects
 
 
 5) context api 
+
+06) theme switcher
+
+07) context api todo app with local storage
+
